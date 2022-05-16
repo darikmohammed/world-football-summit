@@ -110,3 +110,61 @@ section {
 .featured-speakers {
   text-align: center;
 }
+.speakers-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  text-align: start;
+  margin-top: 2rem;
+}
+.speakers-card .card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.speakers-card .card img {
+  width: 100%;
+}
+.speakers-card .card .description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.speakers-card .card .description .speaker-decoration {
+  width: 15%;
+  height: 0.1rem;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.speakers-card .card .description .role {
+  color: #ec5342;
+}
+
+.speakers-card .card .description .small {
+  font-size: 0.8rem;
+}
+
+.partner {
+  background-color: #272a31;
+  color: #ffffff;
+  text-align: center;
+}
+
+.partner .partners-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partner .partners-img img {
+  width: 9.1rem;
+  opacity: 70%;
+  transition: 1.5s;
+}
+.partner .partners-img img:hover {
+  opacity: 100%;
+  transition: 1.5s;
+  transform: scale(1.2);
+}
