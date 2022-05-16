@@ -11,6 +11,9 @@
   margin: 0;
   padding: 0;
 }
+section {
+  padding: 1rem;
+}
 
 header {
   position: fixed;
@@ -30,10 +33,6 @@ header {
   margin: 1rem 2rem;
   justify-content: space-between;
   align-items: center;
-}
-
-section {
-  padding: 1rem;
 }
 
 .heading {
@@ -167,4 +166,15 @@ section {
   opacity: 100%;
   transition: 1.5s;
   transform: scale(1.2);
+}
+footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  opacity: 70%;
 }
