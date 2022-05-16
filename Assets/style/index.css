@@ -28,6 +28,10 @@ header {
   display: none;
 }
 
+.active {
+  color: #ec5342;
+}
+
 .menu-container {
   display: flex;
   margin: 1rem 2rem;
@@ -48,7 +52,7 @@ header {
 }
 
 .intro-paragraph {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(252, 252, 252);
   border: 3px #ffffff solid;
   padding: 1rem;
   margin-bottom: 0;
@@ -177,4 +181,75 @@ footer {
 footer p {
   font-size: 0.8rem;
   opacity: 70%;
+}
+
+/* about page  */
+
+.heading-about {
+  background-image: url(../image/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6rem;
+  text-align: center;
+}
+.heading-about h1 {
+  color: #ec5342;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-about h2 {
+  color: #ec5342;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 1.3rem;
+}
+
+.heading-about .intro-paragraph {
+  margin-bottom: 1rem;
+}
+
+.heading-about .intro-location,
+.heading-about .email {
+  font-size: 0.9rem;
+}
+
+.heading-about .email {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.wf-logo {
+  margin-top: 1rem;
+  text-align: center;
+}
+.wf-logo p {
+  margin-top: 1rem;
+}
+.wf-logo .logo {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  width: 70%;
+  border: 2px #d4cfcf solid;
+}
+
+.past-project {
+  text-align: center;
+}
+
+.past-project p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.past-project img {
+  width: 90%;
+  transition: 1.5s;
+  margin-bottom: 1.2rem;
+}
+
+.past-project img:hover {
+  transition: 1.5s;
+  transform: scale(1.1);
 }
