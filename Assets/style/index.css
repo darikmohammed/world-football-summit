@@ -37,9 +37,11 @@ header {
   top: 0;
 }
 
-.menu-container .top-nav {
+.menu-container .top-nav,
+.menu-container .main-nav {
   display: none;
 }
+
 .menu-container .main-nav.mobile {
   display: flex;
   flex-direction: column;
