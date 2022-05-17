@@ -243,13 +243,13 @@ footer p {
   margin-bottom: 1.5rem;
 }
 
-.past-project img {
+.project img {
   width: 90%;
   transition: 1.5s;
   margin-bottom: 1.2rem;
 }
 
-.past-project img:hover {
+.project img:hover {
   transition: 1.5s;
   transform: scale(1.1);
 }
