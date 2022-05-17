@@ -11,6 +11,13 @@
   margin: 0;
   padding: 0;
 }
+button {
+  background-color: transparent;
+  border: none;
+}
+.active {
+  color: #ec5342;
+}
 ul {
   list-style: none;
 }
@@ -29,13 +36,22 @@ header {
   background-color: #ffffff;
   top: 0;
 }
-.menu-container .top-nav,
-.menu-container .main-nav {
+
+.menu-container .top-nav {
   display: none;
 }
-
-.active {
-  color: #ec5342;
+.menu-container .main-nav.mobile {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  color: #272a31;
+  background-color: rgba(243, 243, 243, 0.9);
+  height: 100vh;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.close-mobile-menu {
+  align-self: flex-end;
 }
 
 .menu-container {
@@ -261,10 +277,12 @@ footer p {
 }
 
 @media (min-width: 768px) {
+  .close-mobile-menu,
   .menu-container .mobile-menu,
   .menu-container .logo-mobile {
     display: none;
   }
+
   .menu-container {
     flex-direction: column;
     align-items: flex-start;
