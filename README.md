@@ -3,6 +3,7 @@
 # Capstone Project
 
 > Online website for a conference using design guidelines provided by Microverse.
+<img width="1153" alt="Screen Shot 2022-05-18 at 10 56 20 AM" src="https://user-images.githubusercontent.com/56404835/168987652-63d0524d-c059-46e3-a5ca-7e5f9420d59f.png">
 
 ## Built With
 
