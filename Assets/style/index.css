@@ -4,8 +4,7 @@
   font-family: "COCOGOOSE";
   font-style: normal;
   font-weight: normal;
-  src:
-    local("COCOGOOSE Regular"),
+  src: local("COCOGOOSE Regular"),
     url("../font/cocogoose_trial.woff") format("woff");
 }
 
@@ -297,6 +296,26 @@ footer {
   text-align: center;
 }
 
+.join-us .desk-join-us {
+  display: none;
+}
+.footer-about .logo-desk {
+  display: none;
+}
+.button-feature {
+  border: 1px solid #272a31;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.less-feature-speaker-mbl {
+  display: none;
+}
+.fa-angle-down,
+.fa-angle-up {
+  color: #ec5342;
+}
+
 @media (min-width: 768px) {
   .close-mobile-menu,
   .menu-container .mobile-menu,
@@ -398,13 +417,13 @@ footer {
 
   .main-program .join-us {
     background-color: transparent;
-    color: #ec5342;
+    color: #ffffff;
     transition: 0.5s;
     cursor: pointer;
   }
 
   .main-program .join-us:hover {
-    color: #fff;
+    color: #ec5342;
     transition: 0.5s;
   }
 
@@ -462,5 +481,29 @@ footer {
   .past-project .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+    color: #ffffff;
+  }
+  .join-us .mobile-join-us {
+    display: none;
+  }
+  .join-us .desk-join-us {
+    display: block;
+  }
+  .footer-about .logo {
+    display: none;
+  }
+  .footer-about .logo-desk {
+    display: block;
+  }
+  .more-feature-speaker-mbl {
+    display: none;
   }
 }
