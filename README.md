@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project
 
-> Description the project.
+> Online website for a conference using design guidelines provided by Microverse.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- JAVASCRIPT ES6
 
 ## Live Demo (if available)
 
@@ -16,36 +16,45 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Github
+- Visual Studio Code (Other like Atom and ... )
+
 ### Setup
 
-### Install
+#### Download the file locally
 
-### Usage
+- Using Terminal
+
+```sh
+git clone git@github.com:darikmohammed/world-football-summit.git
+
+```
+
+- Or download the zip file from the github directory.
+
+```sh
+https://github.com/darikmohammed/world-football-summit
+
+```
 
 ### Run tests
 
-### Deployment
+- Lighthouse
+- Webhint
+- Stylelint
+- ESLint
 
 ## Authors
 
-👤 **Author1**
+👤 **Darik Mohammed**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/darikmohammed)
+- Twitter: [@twitterhandle](https://twitter.com/r_darik)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/darik-mohammed-57352120b/)
 
 ## 🤝 Contributing
 
@@ -65,4 +74,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+Creative Commons
+
+This project is only for student purpose, the design is based in the template from [Cindy Shin](https://www.behance.net/adagio07).
