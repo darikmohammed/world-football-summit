@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "COCOGOOSE";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("COCOGOOSE Regular"),
+    url("../font/cocogoose_trial.woff") format("woff");
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.active {
+  color: #ec5342;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 1rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  background-color: #fff;
+  top: 0;
+}
+
+.menu-container .top-nav,
+.menu-container .main-nav {
+  display: none;
+}
+
+.menu-container .main-nav.mobile {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  color: #272a31;
+  background-color: rgba(243, 243, 243, 0.9);
+  height: 100vh;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.close-mobile-menu {
+  align-self: flex-end;
+}
+
+.menu-container {
+  display: flex;
+  margin: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  background-image: url(../image/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6rem;
+}
+
+.heading-header {
+  width: 100%;
+  height: auto;
+}
+
+.intro-paragraph {
+  background-color: rgb(252, 252, 252);
+  border: 3px #fff solid;
+  padding: 1rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+.intro-date {
+  font-family: "COCOGOOSE", "Lato", sans-serif;
+  margin-top: 0.5rem;
+}
+
+.main-program {
+  background: #272a32 url("../image/bg_pattern.png");
+  color: #fff;
+  text-align: center;
+}
+
+.program-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.program-cards .card {
+  background-color: rgba(63, 63, 63, 0.4);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem;
+  padding: 1rem;
+  text-align: start;
+}
+
+.program-cards .card .card-heading {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.project img {
+  width: 90%;
+  transition: 1.5s;
+  margin-bottom: 1.2rem;
+}
+
+.program-cards .card img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.program-cards .card h3 {
+  color: #ec5342;
+  font-size: 1.2rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  opacity: 70%;
+}
+
+.wf-logo p {
+  margin-top: 1rem;
+}
+
+.past-project p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.program-cards .card p {
+  font-size: 1rem;
+  justify-self: flex-end;
+}
+
+.main-program .join-us {
+  margin: 2rem;
+  background-color: #ec5342;
+  padding: 1rem;
+}
+
+.featured-speakers {
+  text-align: center;
+}
+
+.speakers-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  text-align: start;
+  margin-top: 2rem;
+}
+
+.speakers-card .card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.project img:hover {
+  transition: 1.5s;
+  transform: scale(1.1);
+}
+
+.speakers-card .card img {
+  width: 100%;
+}
+
+.speakers-card .card .description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.speakers-card .card .description .speaker-decoration {
+  width: 15%;
+  height: 0.1rem;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.speakers-card .card .description .role {
+  color: #ec5342;
+}
+
+.speakers-card .card .description .small {
+  font-size: 0.8rem;
+}
+
+.partner {
+  background-color: #272a31;
+  color: #fff;
+  text-align: center;
+}
+
+.partner .partners-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partner .partners-img img {
+  width: 9.1rem;
+  opacity: 70%;
+  transition: 1.5s;
+}
+
+.partner .partners-img img:hover {
+  opacity: 100%;
+  transition: 1.5s;
+  transform: scale(1.2);
+}
+
+footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-about {
+  background-image: url(../image/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.heading-about h1 {
+  color: #ec5342;
+  font-family: "COCOGOOSE", "Lato", sans-serif;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading-about h2 {
+  color: #ec5342;
+  font-family: "COCOGOOSE", "Lato", sans-serif;
+  font-size: 1.3rem;
+}
+
+.heading-about .intro-paragraph {
+  margin-bottom: 1rem;
+}
+
+.heading-about .intro-location,
+.heading-about .email {
+  font-size: 0.9rem;
+}
+
+.heading-about .email {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.wf-logo {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.wf-logo .logo {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  width: 70%;
+  border: 2px #d4cfcf solid;
+}
+
+.past-project {
+  text-align: center;
+}
+
+.join-us .desk-join-us {
+  display: none;
+}
+
+.footer-about .logo-desk {
+  display: none;
+}
+
+.button-feature {
+  border: 1px solid #272a31;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.less-feature-speaker-mbl {
+  display: none;
+}
+
+.fa-angle-down,
+.fa-angle-up {
+  color: #ec5342;
+}
+
+@media (min-width: 768px) {
+  .close-mobile-menu,
+  .menu-container .mobile-menu,
+  .menu-container .logo-mobile {
+    display: none;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-container .top-nav,
+  .menu-container .main-nav {
+    display: block;
+  }
+
+  .menu-container .top-nav {
+    background-color: #272a31;
+    color: #d3d3d3;
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0.5rem 5rem;
+  }
+
+  .menu-container .top-nav ul {
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .menu-container .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0.5rem 5rem;
+  }
+
+  .menu-container .main-nav .menu {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .menu-container .main-nav .menu .route-menu ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .menu-container .main-nav .menu .nav-next {
+    color: #ec5342;
+    border: 4px #ec5342 solid;
+    padding: 0.5rem 1rem;
+  }
+
+  .heading {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .main-program {
+    padding-top: 2rem;
+  }
+
+  .main-program .program-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-program .program-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .main-program .program-cards .card .card-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .main-program .join-us {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .main-program .join-us:hover {
+    color: #ec5342;
+    transition: 0.5s;
+  }
+
+  .featured-speakers {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .featured-speakers .speakers-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-speakers .speakers-card .card .small {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 1rem 5rem;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  footer .footer-description {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  /* about  */
+  .heading-about {
+    padding: 4rem;
+  }
+
+  .heading-about .about-heading-2 {
+    display: none;
+  }
+
+  .heading-about h1 {
+    padding: 1rem 10rem;
+    font-size: 3rem;
+  }
+
+  .heading-about .intro-paragraph {
+    margin: 1rem 10rem;
+  }
+
+  .heading-about .intro-location {
+    margin-top: 5rem;
+  }
+
+  .wf-logo {
+    padding: 2rem 15rem;
+  }
+
+  .past-project .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .join-us .mobile-join-us {
+    display: none;
+  }
+
+  .join-us .desk-join-us {
+    display: block;
+  }
+
+  .footer-about .logo {
+    display: none;
+  }
+
+  .footer-about .logo-desk {
+    display: block;
+  }
+
+  .more-feature-speaker-mbl {
+    display: none;
+  }
+}

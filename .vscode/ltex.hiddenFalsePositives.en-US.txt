@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q@ Stadium of Quatar, Al Rayyan just outside of Doha\\E$"}
