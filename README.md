@@ -19,10 +19,6 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Video about the Project 
-
-[Loom Video](https://www.loom.com/share/3d3b6c0f172b4109967a90bcb174153f).
-
 ### Prerequisites
 
 - Github

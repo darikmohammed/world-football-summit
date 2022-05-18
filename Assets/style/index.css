@@ -4,7 +4,8 @@
   font-family: "COCOGOOSE";
   font-style: normal;
   font-weight: normal;
-  src: local("COCOGOOSE Regular"),
+  src:
+    local("COCOGOOSE Regular"),
     url("../font/cocogoose_trial.woff") format("woff");
 }
 
@@ -299,18 +300,22 @@ footer {
 .join-us .desk-join-us {
   display: none;
 }
+
 .footer-about .logo-desk {
   display: none;
 }
+
 .button-feature {
   border: 1px solid #272a31;
   width: 100%;
   margin-top: 1rem;
   padding: 1rem;
 }
+
 .less-feature-speaker-mbl {
   display: none;
 }
+
 .fa-angle-down,
 .fa-angle-up {
   color: #ec5342;
@@ -417,7 +422,7 @@ footer {
 
   .main-program .join-us {
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
     transition: 0.5s;
     cursor: pointer;
   }
@@ -489,20 +494,25 @@ footer {
 
   .footer-about {
     background-color: #272a31;
-    color: #ffffff;
+    color: #fff;
   }
+
   .join-us .mobile-join-us {
     display: none;
   }
+
   .join-us .desk-join-us {
     display: block;
   }
+
   .footer-about .logo {
     display: none;
   }
+
   .footer-about .logo-desk {
     display: block;
   }
+
   .more-feature-speaker-mbl {
     display: none;
   }
